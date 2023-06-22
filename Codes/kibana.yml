@@ -1,0 +1,11 @@
+
+
+server.host: "your_private_ip"
+
+#Modify the user's credential with the ones generated in the elasticksearch configuration phase 
+
+# You must generate your own keys with the kibana-encryption-keys in /usr/share/kibana/bin/
+
+xpack.encryptedSavedObjects.encryptionKey: 66fbd85ceb3cba51c0e939fb2526f585
+xpack.reporting.encryptionKey: 9358f4bc7189ae0ade1b8deeec7f38ef
+xpack.security.encryptionKey: 8f847a594e4a813c4187fa93c884e92b
